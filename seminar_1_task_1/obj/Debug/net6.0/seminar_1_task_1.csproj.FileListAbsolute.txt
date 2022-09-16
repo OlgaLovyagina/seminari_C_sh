@@ -1,0 +1,15 @@
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\bin\Debug\net6.0\seminar_1_task_1.exe
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\bin\Debug\net6.0\seminar_1_task_1.deps.json
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\bin\Debug\net6.0\seminar_1_task_1.runtimeconfig.json
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\bin\Debug\net6.0\seminar_1_task_1.dll
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\bin\Debug\net6.0\seminar_1_task_1.pdb
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.csproj.AssemblyReference.cache
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.AssemblyInfoInputs.cache
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.AssemblyInfo.cs
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.csproj.CoreCompileInputs.cache
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.dll
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\refint\seminar_1_task_1.dll
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.pdb
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\seminar_1_task_1.genruntimeconfig.cache
+C:\Users\Ольга\Documents\Обучение GB\seminari_C_SH\seminar_1_task_1\obj\Debug\net6.0\ref\seminar_1_task_1.dll
