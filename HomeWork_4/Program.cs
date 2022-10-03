@@ -25,45 +25,102 @@ void Task25()
 /// <summary>
 ///принимает на вход число и выдаёт сумму цифр в числе.
 /// </summary>
+/// 
 void Task27()
 {
     {
         Console.WriteLine("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
         int current = Math.Abs(number);
-        
+
         int sum = 0;
         int a = NumberDigits(current);
         for (int i = 0; i < a; i++)
         {
             sum = sum + current % 10;
-            current = current / 10;            
+            current = current / 10;
         }
         Console.WriteLine($"Сумма цифр в числе {number} = {sum}");
     }
-}
-
-//int GetCountNumbers(int number)
-//{
-
-//    return number.ToString().Length;
-//}
 
 
-int NumberDigits(int current) // считает количество цифр в числе
-{
+
+    int NumberDigits(int current) // считает количество цифр в числе
+    {
         int i = 0;
 
         while (current > 0)
-        {          
-        current /= 10;
-           i++;        
+        {
+            current /= 10;
+            i++;
         }
-    return i;
+        return i;
+    }
 }
 
-
+// В предыдущем варианте использовала метод, но как-то выглядит сложно,
+// посмотрела разбор ДЗ, добавила ваше решение
+void Task27_1()
+{
+    Console.WriteLine("Введите число: ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    int sum = 0;
+    while (number > 0)
+    {
+       sum += number% 10;
+        number /= 10;
+    }
+    Console.WriteLine($"Сумма цифр в числе = {sum}");
+}
 
 #endregion
+
+#region Task29 
+/// <summary>
+///Напишите программу, которая задаёт массив из 8 случайных целых чисел и выводит 
+///отсортированный по модулю массив.
+/// </summary>
+/// 
+void Task29()
+{
+
+    int size = 8;
+    int[] numbers = new int[size];
+    Console.WriteLine("Размер массива: " + size);
+
+    FillArrey(numbers); //  вызов метода на заполнения массива
+    
+    PrintArrey(numbers); //  вызов метода на вывод массива
+
+
+
+    void FillArrey(int[] num) //  метод на заполнения массива
+    {
+        Random random = new Random();
+        for (int i = 0; i < num.Length; i++) // цикл на заполнения массива
+        {
+            num[i] = random.Next();
+        }
+        
+    }
+
+    void PrintArrey(int[] num) //  метод на вывод массива
+    {
+        num = num.OrderBy(x => Math.Abs(x)).ToArray(); // сортировка по модулю
+
+        for (int i = 0; i < num.Length; i++)// цикл на вывод массива   
+        {
+            Console.Write(num[i] + "\t"); //вывод элементов массива в строку через табуляцию
+        }
+        Console.WriteLine();
+
+    }
+
+}
+
+#endregion
+
 //Task25();
-Task27();
+//Task27();
+Task27_1();
+//Task29();
